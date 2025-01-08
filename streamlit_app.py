@@ -20,7 +20,7 @@ with tab2:
     col1, col2 = st.columns(2)
     with col1:
         st.markdown("Weight w<sub>0</sub>", unsafe_allow_html=True)
-        w0 = st.slider("s1", min_value=0.00, max_value=5.00, value=0.00, step=0.0, label_visibility="collapsed")
+        w0 = st.slider("s1", min_value=0.00, max_value=5.00, value=0.00, step=0.01, label_visibility="collapsed")
         st.markdown("Input x<sub>0</sub>", unsafe_allow_html=True)
         x0 = st.number_input("n1", value=0.00, step=0.01, label_visibility="collapsed")
 
